@@ -1,0 +1,120 @@
+{
+  "title": "One register for the whole garment unit",
+  "note": "Walkthrough of the garment-unit app. The app is never named; every screen comes from a seeded demo shop with invented names.",
+  "scenes": [
+    {
+      "id": "intro", "chapter": "", "title": "Your whole unit,\nin one phone",
+      "points": ["Fabric in", "Cutting & lots", "Maal out & back", "Packing", "Payments", "Attendance"],
+      "shots": ["s02_dashboard"],
+      "narration": "Running a garment unit means keeping track of every meter of cloth, every lot, every bundle that leaves with a karigar, and every rupee you owe. This app puts all of it on one phone, from the fabric that arrives to the pieces that are packed and the wages that are paid. Here is a complete tour."
+    },
+    {
+      "id": "signin", "chapter": "01", "title": "Sign in & roles",
+      "points": ["Phone number + 4-digit PIN", "Admin sees the whole shop", "Manager runs the work floor", "Staff see only their attendance"],
+      "shots": ["s01_login", "s04_sidebar", "s05_manager_menu"],
+      "narration": "Everyone signs in with their phone number and a four-digit PIN. The Admin sees the whole shop. A Manager runs the work floor, while payments, logins, analytics and settings stay with the Admin. Staff only see their own attendance."
+    },
+    {
+      "id": "dashboard", "chapter": "02", "title": "Dashboard",
+      "points": ["Six one-tap actions", "Live counts for every team", "Pieces out & money unpaid", "Shop alerts"],
+      "shots": ["s02_dashboard", "s03_dashboard_alerts"],
+      "narration": "The dashboard opens with the six things you do most: new thaan, new pattern, new cutting, give maal, take maal back, and packing. Below them are live counts for masters, karigars, packing and attendance, what is still unpaid, and shop alerts, like a cutting shortage, short pieces, or a check-in from the wrong place."
+    },
+    {
+      "id": "thaan", "chapter": "03", "title": "Thaan — fabric in",
+      "points": ["A photo for every colour or print", "Meters under each photo, total adds up", "Party, fabric, LR number, transport", "Write, crop and zoom on photos", "Cloth left on every thaan"],
+      "shots": ["s07_thaan_list", "s08_thaan_photos", "s09_thaan_fields", "s10_write_on_photo", "s11_thaan_detail"],
+      "narration": "Fabric starts as a thaan. Take a photo of each colour or print, write its meters under the photo, and the total adds up by itself. The party name, fabric, LR number and transport are saved with it, and every part gets its own code. You can write on a photo, crop it, or zoom in. The thaan list shows how much cloth is left on every roll."
+    },
+    {
+      "id": "patterns", "chapter": "04", "title": "Patterns & rates",
+      "points": ["Photo + average cloth per piece", "Karigar rate per piece", "Master rate per meter", "Packing rate", "New rates never change past hisaab"],
+      "shots": ["s12_patterns", "s13_pattern_form"],
+      "narration": "Each pattern carries its photo, the average cloth per piece, and three rates: the karigar's rate per piece, the master's cutting rate per meter, and the packing rate. Change a rate, and only future work uses it. Past hisaab stays exactly as it was, with the full rate history kept."
+    },
+    {
+      "id": "cutting", "chapter": "05", "title": "New cutting",
+      "points": ["Pick the master", "Find the thaan by photo", "Choose a design for each part", "Pieces & cutting pay worked out"],
+      "shots": ["s14_cut_master", "s15_cut_photo_match", "s16_cut_design_picker", "s17_cut_check"],
+      "narration": "New Cutting turns a thaan into lots. Pick the master, then find the thaan, or simply photograph the cloth and the closest match comes to the top. Tap each part of the thaan, choose its design, and the app works out the pieces to make and the master's cutting pay before you save."
+    },
+    {
+      "id": "lots", "chapter": "06", "title": "Lot register",
+      "points": ["Pattern, master, pieces cut", "Received, remaining, available", "Open / closed / by karigar", "Find a lot by photo", "Pick lots, send one PDF"],
+      "shots": ["s18_lot_register", "s19_lot_details"],
+      "narration": "Every lot lands in the lot register, with its pattern, master, pieces cut, how many have come back, and how many are still out. Filter open or closed lots, search, find a lot by photo, or pick several lots and send them as one PDF."
+    },
+    {
+      "id": "give", "chapter": "07", "title": "Give maal",
+      "points": ["New thaan, bundles, or a master's lot", "Bundles × pieces — or meters", "Written right onto the photo", "Pattern now, or set it later", "Share the slip on WhatsApp"],
+      "shots": ["s20_give_choices", "s21_give_bundles", "s22_give_patterns", "s23_give_check", "s24_give_saved"],
+      "narration": "Giving maal to a karigar has three choices: a new thaan, bundles, or pieces from a master's lot. For bundles, photograph them and enter bundles times pieces, counted in pieces or in meters, and it is written right onto the photo. Pick a pattern for each photo, or leave it to set later. Check, confirm, and share the slip on WhatsApp."
+    },
+    {
+      "id": "take", "chapter": "08", "title": "Take maal back",
+      "points": ["Pick the karigar and the lot", "Or find the lot by photo", "Hisaab worked out at once", "Short pieces marked with a reason"],
+      "shots": ["s25_take_pick_lot", "s26_take_pieces", "s27_take_check"],
+      "narration": "When finished pieces come back, choose the karigar and the lot, or find it by photo. Set the count, and the hisaab is calculated instantly at the pattern's rate. Pieces that never come back can be marked short, with a reason."
+    },
+    {
+      "id": "workers", "chapter": "09", "title": "Every worker's page",
+      "points": ["Pieces still with them", "Earned, paid, to pay", "Every lot they touched", "Independent masters & individual karigars"],
+      "shots": ["s30_karigars", "s28_karigar_page", "s28b_karigar_lots", "s29_master_page"],
+      "narration": "Every master, karigar and packing worker has a page of their own: the pieces still with them, what they have earned, what has been paid, and every lot they have worked on. Independent masters and individual karigars, who cut their own thaan, are handled too."
+    },
+    {
+      "id": "packing", "chapter": "10", "title": "Packing",
+      "points": ["Packages packed", "Pieces per package", "Which lot was packed", "Paid per package or per piece"],
+      "shots": ["s31_packing_form", "s32_packing_register"],
+      "narration": "Packing entries record the packages packed, the pieces in each, and the lot they came from. Packing workers are paid per package, or per piece where the pattern sets a packing rate."
+    },
+    {
+      "id": "payments", "chapter": "11", "title": "Payments",
+      "points": ["Everyone owed, by role", "Tick the work a payment covers", "Cash or UPI", "Staff salary worked out", "Undo a wrong payment"],
+      "shots": ["s33_payments", "s34_pay_karigar", "s35_pay_salary"],
+      "narration": "Payments shows everyone who is owed money, by role. Open a person, tick the work this payment covers, choose cash or UPI, and pay. Staff salaries are worked out for you: days present, absences cut, overtime added, and anything already paid taken off. A payment made by mistake can be undone."
+    },
+    {
+      "id": "attendance", "chapter": "12", "title": "Staff attendance",
+      "points": ["Check in with a live photo", "GPS: at the unit or branch", "Away? Flagged for the Admin", "Monthly calendar & hours worked"],
+      "shots": ["s37_staff_self", "s38_staff_camera", "s36_attendance_today", "s39_staff_calendar"],
+      "narration": "Staff check in with a live photo. The phone's location confirms they are at the unit or at their branch, and a check-in from anywhere else is flagged for the Admin to accept or reject. Each person has a monthly calendar with their photos, check-in and check-out times, and hours worked."
+    },
+    {
+      "id": "insight", "chapter": "13", "title": "Analytics & records",
+      "points": ["Output, average per day, productivity", "7, 30, 90 days or all time", "Every action in one audit trail", "Edits and deletes shown too"],
+      "shots": ["s41_analytics", "s41b_analytics_people", "s42_records"],
+      "narration": "Analytics compares the work done, the average per day, and the productivity of each person, over seven, thirty or ninety days, or all time. Records is the full audit trail: every thaan, lot, maal entry, packing entry, payment and check-in, including anything that was edited or deleted."
+    },
+    {
+      "id": "reports", "chapter": "14", "title": "Reports & hisaab",
+      "points": ["Shop report PDF", "Excel with every entry", "Monthly hisaab PDF per person", "Ready-made WhatsApp message"],
+      "shots": ["s43_reports", "s45_pdf_preview", "s44_hisaab_whatsapp"],
+      "narration": "Reports give you a shop PDF, and an Excel file with every entry. Tap any name to make their monthly hisaab PDF, with a ready WhatsApp message to send it straight to them."
+    },
+    {
+      "id": "settings", "chapter": "15", "title": "Settings",
+      "points": ["Unit location: GPS, map or link", "Branches with their own area", "Salary rules: per day, per hour", "Monthly report on Telegram", "Nightly photo cleanup & backup"],
+      "shots": ["s46_settings_location", "s48_settings_branches", "s47_settings_salary", "s48b_settings_telegram", "s49_settings_maint"],
+      "narration": "In Settings, set the unit's location by GPS, on a map, or from a Google Maps link, and add branches, each with its own area. Choose the salary rules for days and hours. Link Telegram to get a report every month. Old photos are cleaned up every night, and the whole database can be backed up in one tap."
+    },
+    {
+      "id": "people", "chapter": "16", "title": "Logins & people",
+      "points": ["Add anyone in the shop", "Role, master and branch", "Reset PINs", "Switch people off without losing history"],
+      "shots": ["s50_people", "s51_add_person"],
+      "narration": "Logins and People is where the Admin adds workers, sets their role, their master and their branch, resets PINs, and switches people off without losing their history."
+    },
+    {
+      "id": "safety", "chapter": "17", "title": "Built for the shop floor",
+      "points": ["Undo a delete for 15 seconds", "Works with no internet, syncs later", "Hindi and English", "Installs on the home screen"],
+      "shots": ["s52_undo", "s53_offline", "s06_hindi"],
+      "narration": "Deleted something by mistake? Undo it within fifteen seconds. No internet? Your work is saved on the phone and syncs when the connection comes back. And the whole app works in Hindi as well as English, and installs on the home screen like any other app."
+    },
+    {
+      "id": "outro", "chapter": "", "title": "Thaan to hisaab.\nOne register.",
+      "points": ["Fabric", "Cutting", "Maal", "Packing", "Payments", "Attendance"],
+      "shots": ["s18_lot_register"],
+      "narration": "From thaan to cutting, maal, packing, payments and attendance: one register for the whole unit, always in your pocket."
+    }
+  ]
+}
